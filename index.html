@@ -8,5 +8,10 @@
 <body>
     
     <script src="script.js"></script>
+    <script src="DOM.js">
+        const div = document.createElementById('myDiv');
+        console.log(div.textContent);  //Includes hidden Text
+        console.log(div.innerText);  //Excludes hidden Text
+    </script>
 </body>
 </html>
